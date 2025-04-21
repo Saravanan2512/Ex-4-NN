@@ -153,9 +153,7 @@ print(predictions)
 #Last thing: evaluation of algorithm performance in classifying flowers
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
-```
 
-```
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -180,7 +178,6 @@ predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 ```
-
 <H3>Output:</H3>
 ![Screenshot 2025-04-21 094254](https://github.com/user-attachments/assets/c4527b36-e305-40fb-96ad-7736c46b68b3)
 ![Screenshot 2025-04-21 094307](https://github.com/user-attachments/assets/2e330fba-882c-415c-921f-366e11cef529)
